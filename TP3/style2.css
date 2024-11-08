@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #35424a;
+            color: #ffffff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Mon Site Web</h1>
+    </header>
+    <main>
+        <h2>À propos de moi</h2>
+        <p>Bonjour ! Je suis ravi de vous accueillir sur mon site web. Ici, vous trouverez des informations sur mes projets et mes passions.</p>
+        <img src="https://via.placeholder.com/600x400" alt="Image de démonstration">
+    </main>
+    <footer>
+        <p>&copy; 2024 Mon Site Web</p>
+    </footer>
+</body>
+</html>
+
